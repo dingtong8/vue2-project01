@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
-    <el-breadcrumb style="margin: 0 618px; width: 100px">
-      <el-breadcrumb-item :to="{ path: '/index' } ">首页</el-breadcrumb-item>
+    <el-breadcrumb style="margin: 0 auto; width: 100px">
+      <el-breadcrumb-item :to="{ path: '/index' } ">index</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/TransitionAnimations' } ">Transition</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Layout' } ">Layout</el-breadcrumb-item>
     </el-breadcrumb>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
