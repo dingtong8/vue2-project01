@@ -8,10 +8,12 @@ import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App'
 import router from './router'
+import less from 'less'
 
 Vue.use(ElementUI)
 Vue.use(Button)
 Vue.use(Select)
+Vue.use(less)
 Vue.use(Element, { size: 'small', zIndex: 3000 })
 
 Vue.config.productionTip = false

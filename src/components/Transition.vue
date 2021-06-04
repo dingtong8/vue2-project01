@@ -40,14 +40,11 @@
 
 <script>
 export default {
-  name: 'ElementUI',
-  data () {
-    return {
-      show: true,
-      show2: true,
-      show3: true
-    }
-  }
+  data: () => ({
+    show: true,
+    show2: true,
+    show3: true
+  })
 }
 </script>
 

@@ -2,7 +2,7 @@
   <div class="hello">
     <el-breadcrumb style="margin: 0 auto; width: 100px">
       <el-breadcrumb-item :to="{ path: '/index' } ">index</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/TransitionAnimations' } ">Transition</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Transition' } ">Transition</el-breadcrumb-item>
       <el-breadcrumb-item :to="{ path: '/Layout' } ">Layout</el-breadcrumb-item>
     </el-breadcrumb>
     <h1>{{ msg }}</h1>
