@@ -5,6 +5,13 @@
 ## Build Setup
 
 ``` bash
+# npm install less@3.9.0 -s
+# npm install less-loader@5.0.0 -s
+
+# lessc -v
+lessc 4.1.1 (Less Compiler) [JavaScript]
+
+
 # npm i element-ui -S
 
 # vue --version
