@@ -1,9 +1,33 @@
 <template>
   <div class="hello">
     <el-breadcrumb style="margin: 0 auto; width: 100px">
-      <el-breadcrumb-item :to="{ path: '/index' } ">index</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/Transition' } ">Transition</el-breadcrumb-item>
-      <el-breadcrumb-item :to="{ path: '/Layout' } ">Layout</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/index' }">index</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Transition' }">Transition</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Layout' }">Layout</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Container' }">Container</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Style' }">Style</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Icon' }">Icon</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Button' }">Button</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Link' }">Link</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Radio' }">Radio</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Checkbox' }">Checkbox</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Input' }">Input</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/InputNumber' }">InputNumber</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Select' }">Select</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Cascader' }">Cascader</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Switcher' }">Switcher</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Slider' }">Slider</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/TimePicker' }">TimePicker</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/DatePicker' }">DatePicker</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/DateTimePicker' }">DateTimePicker</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Upload' }">Upload</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Rate' }">Rate</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/ColorPicker' }">ColorPicker</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Transfer' }">Transfer</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Form' }">Form</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Progress' }">Progress</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/NavMenu' }">NavMenu</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/Steps' }">Steps</el-breadcrumb-item>
     </el-breadcrumb>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
